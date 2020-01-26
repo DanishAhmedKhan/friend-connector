@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+.primary_button {
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px 14px;
+    cursor: pointer;
+    background: rgb(105, 107, 214);
+    color: white;
+}
+
+body {
+    font-size: 16px;
+    width: 340px;
+    height: 500px;
+
+    padding: 20px;
+}
+
+.set_interval_box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.set_interval_input {
+    font-size: 12px;
+    padding: 8px 10px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.set_interval_submit {
+    
+}
+
+.set_interval_select {
+    padding: 6px 8px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.set_interval_option {
+    /* background: red; */
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
